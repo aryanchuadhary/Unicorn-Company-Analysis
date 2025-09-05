@@ -1,62 +1,88 @@
-# Unicorn-Company-Analysis
+🦄 Unicorn Startup Analytics Dashboard (Power BI)
+📌 Objective
 
-Objective
-To analyze the valuations and findings of Unicorn startup by creating a analytics dashboard using Power Bi.
+To analyze the valuations and trends of Unicorn startups by creating an interactive analytics dashboard using Power BI.
 
-What’s a Unicorn Company?
-In business, a unicorn is a startup company valued at over US$1 billion which is privately owned and not listed on a share market.
+🧐 What’s a Unicorn Company?
 
-This project aims at exploring the answers to the following questions:
-Which Country and City have a significant Unicorn population?
-How long does it usually take for a company to become a unicorn?
-Which unicorn companies have had the biggest return on investment?
-Which industries have the the investment and valuation?
-Which continent has the most unicorns?
-Which investors have funded the most unicorns?
-What is the overall growth evaluation of Unicorns?
-Data Ingestion
-The dataset used in this analysis contains records of 1060 unicorn companies obtained from data playground of Maven Analytics. Information on the dataset include:
+A Unicorn is a privately owned startup company valued at over US $1 billion and not listed on a stock exchange.
 
-Company : Company name
+🎯 Project Goals
 
-Valuation : Company valuation in billions of dollars
+This project aims to explore and answer the following questions:
 
-Date Joined : The date in which the company reached $1 billion in valuation
+Which countries and cities have the highest Unicorn population?
 
-Industry : Company industry
+How long does it usually take for a company to become a Unicorn?
 
-City : City the company was founded in
+Which Unicorns have generated the biggest return on investment?
 
-Country : Country the company was founded in
+Which industries attract the most funding and valuation?
 
-Continent : Continent the company was founded in
+Which continent has the largest share of Unicorns?
 
-Year Founded : Year the company was founded
+Who are the top investors funding Unicorns?
 
-Funding : Total amount raised across all funding rounds in billions (B) or millions (M) of dollars
+What is the overall growth trend of Unicorn startups globally?
 
-Select Investors : Top 4 investing firms or individual investors (some have less than 4)
+📊 Dataset Information
 
-Data Cleaning
-Removed rows with missing values.
+The dataset contains records of 1,060 Unicorn companies obtained from Maven Analytics (Data Playground).
 
-Transformed the values into desired data types.
+Key Fields:
 
-Add a Column named years taken to become Unicorn.
+Company – Name of the company
 
-Data Modelling
-Found out the relationship between differentt tables
+Valuation – Company valuation (in billions of USD)
 
-Visualization
-Used different charts and produced a dashboard using PowerBi.
+Date Joined – Date the company reached $1B valuation
 
-Analytical Results
-Brief findings of this project are:
+Industry – Industry sector
 
-Country with the maximum number of unicorns is the USA(562), and the city with the maximum number of unicorns is San Francisco(152).
-North America was the continent with the most industries.
-Accel and Tiger global management funded the most unicorns.
-It usually takes about 6 years to attain valuation of $1billion become a unicorn.
-Bytedance, SpaceX, SHEIN and Stripe are the most successful unicorns which performed better than an average unicorn at $71 billion.
-AI, E-Commerce, Fintech industry have the most unicorns.
-In 2021 many start ups have joined to Unicorn group.
+City / Country / Continent – Location details
+
+Year Founded – Founding year
+
+Funding – Total funding raised (in billions or millions of USD)
+
+Select Investors – Top 4 investors (if available)
+
+🛠️ Data Preparation
+
+Removed rows with missing values
+
+Transformed values into the correct data types
+
+Created a new calculated column: Years Taken to Become a Unicorn
+
+Established relationships between dataset fields for Power BI modeling
+
+📈 Visualization & Dashboard
+
+An interactive Power BI dashboard was created using various visualizations to present:
+
+Unicorn distribution by country, city, and continent
+
+Time taken to reach $1B valuation
+
+Top investors and industries
+
+ROI comparisons of leading Unicorns
+
+Yearly growth trends in Unicorn creation
+
+🔍 Key Insights
+
+USA leads with the highest Unicorns (562), while San Francisco tops at the city level (152).
+
+North America dominates with the largest Unicorn population.
+
+Accel and Tiger Global Management are the leading Unicorn investors.
+
+On average, it takes about 6 years for a startup to achieve Unicorn status.
+
+Bytedance, SpaceX, SHEIN, and Stripe are standout Unicorns, far exceeding the average valuation (~$71B).
+
+Industries like AI, E-Commerce, and Fintech attract the most Unicorns.
+
+2021 marked a significant boom in Unicorn creation globally.
