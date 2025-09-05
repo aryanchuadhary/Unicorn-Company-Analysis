@@ -1,6 +1,9 @@
 🦄 Unicorn Startup Analytics Dashboard (Power BI)
 📌 Objective
 
+Unicorn company Dashboard Image 
+https://github.com/aryanchuadhary/Unicorn-Company-Analysis/blob/main/Screenshot%202025-09-05%20154919.png
+
 To analyze the valuations and trends of Unicorn startups by creating an interactive analytics dashboard using Power BI.
 
 🧐 What’s a Unicorn Company?
